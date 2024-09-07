@@ -1,11 +1,14 @@
 #!/bin/bash
 
-LOG_FILE="1.LOG"
+cpu_model=$(lscpu | grep "Model name" | awk -F: '{print $2}' | sed 's/^ *//' | tr ' ' '_')
 
-echo ""
+LOG_FILE="stress-$cpu_model.log"
+
+echo ""| tee -a $LOG_FILE
 echo "###CPU STRESS TEST ###" | tee -a $LOG_FILE
 echo "date: $(date)" | tee -a $LOG_FILE
-echo ""
+echo "LOG_FILE: $LOG_FILE" | tee -a $LOG_FILE
+echo "" | tee -a $LOG_FILE
 
 # Default value for seconds
 seconds=10
@@ -14,7 +17,7 @@ if [ ! -z "$1" ]; then
     seconds=$1
 fi
 # Echo the value of seconds
-echo "testing for $seconds seconds."
+echo "testing for $seconds seconds." | tee -a $LOG_FILE
 
 # Start the CPU stress test in the background and log output to cpu_stress.log
 sysbench --test=cpu --time=$seconds --report-interval=3 --threads=$(nproc) run | tee -a $LOG_FILE &
