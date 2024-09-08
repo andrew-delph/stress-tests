@@ -24,6 +24,10 @@ sysbench --test=cpu --time=$seconds --report-interval=3 --threads=$(nproc) run |
 
 # Get the PID of the stress test process
 STRESS_PID=$!
+
+# Set up a trap to kill the sysbench process if the script exits
+trap "kill $STRESS_PID 2>/dev/null" EXIT
+
 counter=0
 
 # Loop to check the temperature every second while the stress test is running
