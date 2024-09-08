@@ -1,0 +1,816 @@
+
+###CPU STRESS TEST ###
+date: Sat Sep  7 05:03:35 PM PDT 2024
+LOG_FILE: stress-AMD_Ryzen_5_1600_Six-Core_Processor.log
+
+testing for 900 seconds.
+sysbench 1.0.20 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 12
+Report intermediate results every 3 second(s)
+Initializing random number generator from current time
+
+
+Prime numbers limit: 10000
+
+Initializing worker threads...
+
+Threads started!
+
+0) temp: 41.375
+1) temp: 43.125
+2) temp: 44.875
+[ 3s ] thds: 12 eps: 10481.25 lat (ms,95%): 1.27
+3) temp: 46.5
+4) temp: 46.75
+5) temp: 47.125
+[ 6s ] thds: 12 eps: 10534.61 lat (ms,95%): 1.27
+6) temp: 47.375
+7) temp: 47.5
+[ 9s ] thds: 12 eps: 10540.57 lat (ms,95%): 1.23
+8) temp: 47.625
+9) temp: 47.625
+10) temp: 47.75
+[ 12s ] thds: 12 eps: 10544.30 lat (ms,95%): 1.23
+11) temp: 47.75
+12) temp: 48.125
+13) temp: 48.375
+[ 15s ] thds: 12 eps: 10398.73 lat (ms,95%): 1.42
+14) temp: 48.875
+15) temp: 49.125
+[ 18s ] thds: 12 eps: 10143.15 lat (ms,95%): 1.89
+16) temp: 49.375
+17) temp: 49.375
+18) temp: 49.375
+[ 21s ] thds: 12 eps: 10356.64 lat (ms,95%): 1.55
+19) temp: 49.375
+20) temp: 49.375
+21) temp: 49.5
+[ 24s ] thds: 12 eps: 10420.82 lat (ms,95%): 1.37
+22) temp: 49.625
+23) temp: 49.75
+[ 27s ] thds: 12 eps: 10303.99 lat (ms,95%): 1.61
+24) temp: 49.875
+25) temp: 49.875
+26) temp: 49.875
+[ 30s ] thds: 12 eps: 10395.36 lat (ms,95%): 1.39
+27) temp: 50
+28) temp: 50.125
+29) temp: 50.125
+[ 33s ] thds: 12 eps: 10385.56 lat (ms,95%): 1.47
+30) temp: 50.125
+31) temp: 50.125
+[ 36s ] thds: 12 eps: 10342.78 lat (ms,95%): 1.55
+32) temp: 50.125
+33) temp: 50.125
+34) temp: 50.125
+[ 39s ] thds: 12 eps: 10359.64 lat (ms,95%): 1.55
+35) temp: 50.375
+36) temp: 50.75
+37) temp: 51.125
+[ 42s ] thds: 12 eps: 10342.01 lat (ms,95%): 1.50
+38) temp: 51.375
+39) temp: 52.125
+[ 45s ] thds: 12 eps: 10231.31 lat (ms,95%): 1.58
+40) temp: 52
+41) temp: 51.625
+42) temp: 52.125
+[ 48s ] thds: 12 eps: 10369.03 lat (ms,95%): 1.37
+43) temp: 52
+44) temp: 52
+45) temp: 52
+[ 51s ] thds: 12 eps: 10386.01 lat (ms,95%): 1.50
+46) temp: 52
+47) temp: 52
+[ 54s ] thds: 12 eps: 10382.50 lat (ms,95%): 1.37
+48) temp: 52
+49) temp: 52
+50) temp: 52
+[ 57s ] thds: 12 eps: 10311.99 lat (ms,95%): 1.61
+51) temp: 52
+52) temp: 52
+53) temp: 52.125
+[ 60s ] thds: 12 eps: 10380.11 lat (ms,95%): 1.42
+54) temp: 52.25
+55) temp: 52.25
+[ 63s ] thds: 12 eps: 10326.72 lat (ms,95%): 1.50
+56) temp: 52.25
+57) temp: 52.375
+58) temp: 52.375
+[ 66s ] thds: 12 eps: 10388.68 lat (ms,95%): 1.39
+59) temp: 52.375
+60) temp: 52.625
+61) temp: 52.625
+[ 69s ] thds: 12 eps: 10277.01 lat (ms,95%): 1.58
+62) temp: 52.625
+63) temp: 52.625
+[ 72s ] thds: 12 eps: 10359.32 lat (ms,95%): 1.50
+64) temp: 52.625
+65) temp: 52.75
+66) temp: 52.75
+[ 75s ] thds: 12 eps: 10374.67 lat (ms,95%): 1.39
+67) temp: 53.125
+68) temp: 53.375
+69) temp: 53.75
+[ 78s ] thds: 12 eps: 9855.34 lat (ms,95%): 2.48
+70) temp: 52.25
+71) temp: 51.75
+[ 81s ] thds: 12 eps: 10535.67 lat (ms,95%): 1.23
+72) temp: 51.5
+73) temp: 51.5
+74) temp: 51.5
+[ 84s ] thds: 12 eps: 10545.12 lat (ms,95%): 1.23
+75) temp: 51.5
+76) temp: 51.75
+77) temp: 51.75
+[ 87s ] thds: 12 eps: 10528.86 lat (ms,95%): 1.23
+78) temp: 51.625
+79) temp: 51.625
+[ 90s ] thds: 12 eps: 10559.67 lat (ms,95%): 1.21
+80) temp: 51.75
+81) temp: 51.75
+82) temp: 51.75
+[ 93s ] thds: 12 eps: 10564.67 lat (ms,95%): 1.21
+83) temp: 51.75
+84) temp: 51.75
+85) temp: 51.875
+[ 96s ] thds: 12 eps: 10538.69 lat (ms,95%): 1.23
+86) temp: 51.875
+87) temp: 51.875
+[ 99s ] thds: 12 eps: 10552.97 lat (ms,95%): 1.21
+88) temp: 51.875
+89) temp: 52
+90) temp: 52
+[ 102s ] thds: 12 eps: 10543.36 lat (ms,95%): 1.21
+91) temp: 52
+92) temp: 52
+93) temp: 52
+[ 105s ] thds: 12 eps: 10568.30 lat (ms,95%): 1.18
+94) temp: 52
+95) temp: 52.125
+[ 108s ] thds: 12 eps: 10519.69 lat (ms,95%): 1.23
+96) temp: 52
+97) temp: 52
+98) temp: 52
+[ 111s ] thds: 12 eps: 10555.79 lat (ms,95%): 1.21
+99) temp: 52
+100) temp: 52
+[ 114s ] thds: 12 eps: 10549.90 lat (ms,95%): 1.23
+101) temp: 52
+102) temp: 52.125
+103) temp: 52.125
+[ 117s ] thds: 12 eps: 10494.90 lat (ms,95%): 1.27
+104) temp: 52.125
+105) temp: 52.125
+106) temp: 52.25
+[ 120s ] thds: 12 eps: 10502.76 lat (ms,95%): 1.27
+107) temp: 52.375
+108) temp: 52.375
+[ 123s ] thds: 12 eps: 10508.00 lat (ms,95%): 1.27
+109) temp: 52.375
+110) temp: 52.25
+111) temp: 52.25
+[ 126s ] thds: 12 eps: 10546.99 lat (ms,95%): 1.21
+112) temp: 52.25
+113) temp: 52.25
+114) temp: 52.25
+[ 129s ] thds: 12 eps: 10522.31 lat (ms,95%): 1.25
+115) temp: 52.25
+116) temp: 52.375
+[ 132s ] thds: 12 eps: 10543.02 lat (ms,95%): 1.23
+117) temp: 52.5
+118) temp: 52.5
+119) temp: 52.5
+[ 135s ] thds: 12 eps: 10546.99 lat (ms,95%): 1.23
+120) temp: 52.625
+121) temp: 53
+122) temp: 53.5
+[ 138s ] thds: 12 eps: 10395.33 lat (ms,95%): 1.34
+123) temp: 52.875
+124) temp: 52.875
+[ 141s ] thds: 12 eps: 10533.79 lat (ms,95%): 1.23
+125) temp: 53
+126) temp: 52.75
+127) temp: 52.75
+[ 144s ] thds: 12 eps: 10549.58 lat (ms,95%): 1.21
+128) temp: 52.75
+129) temp: 53
+130) temp: 53
+[ 147s ] thds: 12 eps: 10523.33 lat (ms,95%): 1.21
+131) temp: 52.75
+132) temp: 52.75
+[ 150s ] thds: 12 eps: 10562.65 lat (ms,95%): 1.21
+133) temp: 52.875
+134) temp: 52.875
+135) temp: 53
+[ 153s ] thds: 12 eps: 10536.60 lat (ms,95%): 1.21
+136) temp: 53
+137) temp: 53.125
+138) temp: 53
+[ 156s ] thds: 12 eps: 10494.66 lat (ms,95%): 1.23
+139) temp: 53.125
+140) temp: 53.25
+[ 159s ] thds: 12 eps: 10532.76 lat (ms,95%): 1.23
+141) temp: 53.25
+142) temp: 53.125
+143) temp: 53
+[ 162s ] thds: 12 eps: 10559.66 lat (ms,95%): 1.21
+144) temp: 53
+145) temp: 53
+146) temp: 53
+[ 165s ] thds: 12 eps: 10517.99 lat (ms,95%): 1.21
+147) temp: 53
+148) temp: 53.25
+[ 168s ] thds: 12 eps: 10511.89 lat (ms,95%): 1.23
+149) temp: 53.25
+150) temp: 53.25
+151) temp: 53.875
+[ 171s ] thds: 12 eps: 10283.54 lat (ms,95%): 1.34
+152) temp: 53.5
+153) temp: 53.5
+154) temp: 53.5
+[ 174s ] thds: 12 eps: 10507.29 lat (ms,95%): 1.25
+155) temp: 53.5
+156) temp: 53.625
+[ 177s ] thds: 12 eps: 10506.29 lat (ms,95%): 1.27
+157) temp: 53.625
+158) temp: 53.5
+159) temp: 53.625
+[ 180s ] thds: 12 eps: 10555.44 lat (ms,95%): 1.25
+160) temp: 53.625
+161) temp: 53.625
+162) temp: 53.5
+[ 183s ] thds: 12 eps: 10550.05 lat (ms,95%): 1.21
+163) temp: 53.5
+164) temp: 53.5
+[ 186s ] thds: 12 eps: 10565.61 lat (ms,95%): 1.21
+165) temp: 53.5
+166) temp: 53.5
+167) temp: 53.625
+[ 189s ] thds: 12 eps: 10537.22 lat (ms,95%): 1.23
+168) temp: 53.625
+169) temp: 53.75
+170) temp: 53.75
+[ 192s ] thds: 12 eps: 10549.59 lat (ms,95%): 1.23
+171) temp: 53.625
+172) temp: 53.625
+[ 195s ] thds: 12 eps: 10563.89 lat (ms,95%): 1.21
+173) temp: 53.625
+174) temp: 53.625
+175) temp: 53.75
+[ 198s ] thds: 12 eps: 10547.19 lat (ms,95%): 1.23
+176) temp: 53.75
+177) temp: 53.875
+178) temp: 54
+[ 201s ] thds: 12 eps: 10544.94 lat (ms,95%): 1.23
+179) temp: 54
+180) temp: 54
+[ 204s ] thds: 12 eps: 10578.02 lat (ms,95%): 1.18
+181) temp: 54
+182) temp: 53.875
+183) temp: 54
+[ 207s ] thds: 12 eps: 10521.56 lat (ms,95%): 1.23
+184) temp: 53.875
+185) temp: 53.875
+186) temp: 53.875
+[ 210s ] thds: 12 eps: 10574.59 lat (ms,95%): 1.18
+187) temp: 54
+188) temp: 53.875
+[ 213s ] thds: 12 eps: 10520.05 lat (ms,95%): 1.21
+189) temp: 53.875
+190) temp: 53.875
+191) temp: 53.875
+[ 216s ] thds: 12 eps: 10526.65 lat (ms,95%): 1.25
+192) temp: 54
+193) temp: 54
+194) temp: 54
+[ 219s ] thds: 12 eps: 10517.77 lat (ms,95%): 1.25
+195) temp: 54
+196) temp: 54.125
+[ 222s ] thds: 12 eps: 10559.90 lat (ms,95%): 1.23
+197) temp: 54
+198) temp: 54
+199) temp: 54
+[ 225s ] thds: 12 eps: 10564.07 lat (ms,95%): 1.21
+200) temp: 54
+201) temp: 54.25
+202) temp: 54.125
+[ 228s ] thds: 12 eps: 10522.06 lat (ms,95%): 1.23
+203) temp: 54.125
+204) temp: 54.25
+[ 231s ] thds: 12 eps: 10446.67 lat (ms,95%): 1.23
+205) temp: 55
+206) temp: 54.375
+207) temp: 54.25
+[ 234s ] thds: 12 eps: 10561.43 lat (ms,95%): 1.21
+208) temp: 54.25
+209) temp: 54.25
+210) temp: 54.25
+[ 237s ] thds: 12 eps: 10534.63 lat (ms,95%): 1.23
+211) temp: 54.25
+212) temp: 54.25
+[ 240s ] thds: 12 eps: 10560.60 lat (ms,95%): 1.21
+213) temp: 54.25
+214) temp: 54.25
+215) temp: 54.25
+[ 243s ] thds: 12 eps: 10549.64 lat (ms,95%): 1.21
+216) temp: 54.25
+217) temp: 54.25
+218) temp: 54.375
+[ 246s ] thds: 12 eps: 10544.40 lat (ms,95%): 1.21
+219) temp: 54.5
+220) temp: 54.5
+[ 249s ] thds: 12 eps: 10488.31 lat (ms,95%): 1.23
+221) temp: 54.625
+222) temp: 54.5
+223) temp: 54.625
+[ 252s ] thds: 12 eps: 10526.41 lat (ms,95%): 1.23
+224) temp: 54.5
+225) temp: 54.5
+226) temp: 54.75
+[ 255s ] thds: 12 eps: 10556.94 lat (ms,95%): 1.21
+227) temp: 54.75
+228) temp: 54.75
+[ 258s ] thds: 12 eps: 10499.82 lat (ms,95%): 1.27
+229) temp: 54.75
+230) temp: 54.625
+231) temp: 54.75
+[ 261s ] thds: 12 eps: 10545.63 lat (ms,95%): 1.23
+232) temp: 54.75
+233) temp: 54.75
+234) temp: 55.25
+[ 264s ] thds: 12 eps: 10402.74 lat (ms,95%): 1.27
+235) temp: 55.375
+236) temp: 55.25
+[ 267s ] thds: 12 eps: 10440.11 lat (ms,95%): 1.32
+237) temp: 55.125
+238) temp: 54.875
+239) temp: 54.75
+[ 270s ] thds: 12 eps: 10548.01 lat (ms,95%): 1.21
+240) temp: 54.875
+241) temp: 55
+242) temp: 55
+[ 273s ] thds: 12 eps: 10567.20 lat (ms,95%): 1.21
+243) temp: 55
+244) temp: 55
+[ 276s ] thds: 12 eps: 10562.06 lat (ms,95%): 1.21
+245) temp: 55
+246) temp: 55
+247) temp: 55
+[ 279s ] thds: 12 eps: 10544.12 lat (ms,95%): 1.23
+248) temp: 55
+249) temp: 55.125
+[ 282s ] thds: 12 eps: 10555.57 lat (ms,95%): 1.23
+250) temp: 55.125
+251) temp: 55
+252) temp: 55
+[ 285s ] thds: 12 eps: 10571.02 lat (ms,95%): 1.18
+253) temp: 55
+254) temp: 55.125
+255) temp: 55.125
+[ 288s ] thds: 12 eps: 10527.40 lat (ms,95%): 1.23
+256) temp: 55.125
+257) temp: 55.125
+[ 291s ] thds: 12 eps: 10506.98 lat (ms,95%): 1.23
+258) temp: 55.25
+259) temp: 55.25
+260) temp: 55.25
+[ 294s ] thds: 12 eps: 10529.73 lat (ms,95%): 1.23
+261) temp: 55.25
+262) temp: 55.25
+263) temp: 55.25
+[ 297s ] thds: 12 eps: 10517.78 lat (ms,95%): 1.23
+264) temp: 55.25
+265) temp: 55.25
+[ 300s ] thds: 12 eps: 10543.40 lat (ms,95%): 1.21
+266) temp: 55.25
+267) temp: 55.375
+268) temp: 55.375
+[ 303s ] thds: 12 eps: 10512.89 lat (ms,95%): 1.27
+269) temp: 55.25
+270) temp: 55.25
+271) temp: 55.375
+[ 306s ] thds: 12 eps: 10539.35 lat (ms,95%): 1.21
+272) temp: 55.375
+273) temp: 55.5
+[ 309s ] thds: 12 eps: 10540.49 lat (ms,95%): 1.23
+274) temp: 55.5
+275) temp: 55.375
+276) temp: 55.5
+[ 312s ] thds: 12 eps: 10536.94 lat (ms,95%): 1.23
+277) temp: 55.5
+278) temp: 55.75
+279) temp: 55.625
+[ 315s ] thds: 12 eps: 10475.76 lat (ms,95%): 1.27
+280) temp: 55.625
+281) temp: 55.625
+[ 318s ] thds: 12 eps: 10475.94 lat (ms,95%): 1.27
+282) temp: 55.5
+283) temp: 55.5
+284) temp: 55.5
+[ 321s ] thds: 12 eps: 10488.92 lat (ms,95%): 1.23
+285) temp: 55.625
+286) temp: 55.5
+287) temp: 55.75
+[ 324s ] thds: 12 eps: 10495.31 lat (ms,95%): 1.23
+288) temp: 56.25
+289) temp: 55.875
+[ 327s ] thds: 12 eps: 10456.06 lat (ms,95%): 1.27
+290) temp: 55.875
+291) temp: 55.625
+292) temp: 55.625
+[ 330s ] thds: 12 eps: 10549.46 lat (ms,95%): 1.21
+293) temp: 55.625
+294) temp: 55.75
+295) temp: 55.625
+[ 333s ] thds: 12 eps: 10563.41 lat (ms,95%): 1.21
+296) temp: 55.625
+297) temp: 55.75
+[ 336s ] thds: 12 eps: 10541.84 lat (ms,95%): 1.23
+298) temp: 55.75
+299) temp: 55.75
+300) temp: 55.75
+[ 339s ] thds: 12 eps: 10539.51 lat (ms,95%): 1.23
+301) temp: 55.75
+302) temp: 55.875
+303) temp: 55.75
+[ 342s ] thds: 12 eps: 10523.45 lat (ms,95%): 1.23
+304) temp: 55.75
+305) temp: 55.75
+[ 345s ] thds: 12 eps: 10560.38 lat (ms,95%): 1.21
+306) temp: 55.75
+307) temp: 56
+308) temp: 55.875
+[ 348s ] thds: 12 eps: 10511.30 lat (ms,95%): 1.25
+309) temp: 55.875
+310) temp: 55.875
+311) temp: 56
+[ 351s ] thds: 12 eps: 10552.64 lat (ms,95%): 1.21
+312) temp: 56
+313) temp: 56
+[ 354s ] thds: 12 eps: 10545.07 lat (ms,95%): 1.23
+314) temp: 56
+315) temp: 55.875
+316) temp: 56
+[ 357s ] thds: 12 eps: 10488.34 lat (ms,95%): 1.27
+317) temp: 56.5
+318) temp: 56.375
+319) temp: 56.375
+[ 360s ] thds: 12 eps: 10305.42 lat (ms,95%): 1.44
+320) temp: 56.25
+321) temp: 56
+[ 363s ] thds: 12 eps: 10535.11 lat (ms,95%): 1.23
+322) temp: 56
+323) temp: 56
+324) temp: 56
+[ 366s ] thds: 12 eps: 10544.16 lat (ms,95%): 1.21
+325) temp: 56
+326) temp: 56
+327) temp: 56
+[ 369s ] thds: 12 eps: 10549.04 lat (ms,95%): 1.21
+328) temp: 56
+329) temp: 56
+[ 372s ] thds: 12 eps: 10522.95 lat (ms,95%): 1.23
+330) temp: 56
+331) temp: 56
+332) temp: 56
+[ 375s ] thds: 12 eps: 10554.00 lat (ms,95%): 1.21
+333) temp: 56.125
+334) temp: 56.125
+335) temp: 56.125
+[ 378s ] thds: 12 eps: 10525.28 lat (ms,95%): 1.23
+336) temp: 56
+337) temp: 56
+[ 381s ] thds: 12 eps: 10538.93 lat (ms,95%): 1.21
+338) temp: 56
+339) temp: 56
+340) temp: 56
+[ 384s ] thds: 12 eps: 10582.90 lat (ms,95%): 1.18
+341) temp: 56.125
+342) temp: 56
+343) temp: 56
+[ 387s ] thds: 12 eps: 10510.48 lat (ms,95%): 1.23
+344) temp: 56.25
+345) temp: 56
+[ 390s ] thds: 12 eps: 10534.16 lat (ms,95%): 1.21
+346) temp: 56
+347) temp: 56
+348) temp: 56
+[ 393s ] thds: 12 eps: 10551.66 lat (ms,95%): 1.21
+349) temp: 56.125
+350) temp: 56.125
+351) temp: 56.125
+[ 396s ] thds: 12 eps: 10544.33 lat (ms,95%): 1.23
+352) temp: 56.125
+353) temp: 56.125
+[ 399s ] thds: 12 eps: 10546.00 lat (ms,95%): 1.23
+354) temp: 56.125
+355) temp: 56.125
+356) temp: 56.125
+[ 402s ] thds: 12 eps: 10520.02 lat (ms,95%): 1.30
+357) temp: 56.125
+358) temp: 56.125
+359) temp: 56.25
+[ 405s ] thds: 12 eps: 10529.96 lat (ms,95%): 1.27
+360) temp: 56.375
+361) temp: 56.5
+[ 408s ] thds: 12 eps: 10498.18 lat (ms,95%): 1.27
+362) temp: 56.5
+363) temp: 56.5
+364) temp: 56.5
+[ 411s ] thds: 12 eps: 10509.37 lat (ms,95%): 1.30
+365) temp: 56.375
+366) temp: 56.375
+367) temp: 56.25
+[ 414s ] thds: 12 eps: 10528.14 lat (ms,95%): 1.25
+368) temp: 56.375
+369) temp: 56.375
+[ 417s ] thds: 12 eps: 10489.87 lat (ms,95%): 1.27
+370) temp: 56.75
+371) temp: 57
+372) temp: 56.5
+[ 420s ] thds: 12 eps: 10406.06 lat (ms,95%): 1.32
+373) temp: 56.5
+374) temp: 56.25
+[ 423s ] thds: 12 eps: 10536.21 lat (ms,95%): 1.27
+375) temp: 56.25
+376) temp: 56.25
+377) temp: 56.25
+[ 426s ] thds: 12 eps: 10454.34 lat (ms,95%): 1.34
+378) temp: 56.5
+379) temp: 56.5
+380) temp: 56.375
+[ 429s ] thds: 12 eps: 10542.28 lat (ms,95%): 1.25
+381) temp: 56.375
+382) temp: 56.375
+[ 432s ] thds: 12 eps: 10441.60 lat (ms,95%): 1.32
+383) temp: 56.75
+384) temp: 57.875
+385) temp: 58.125
+[ 435s ] thds: 12 eps: 9742.91 lat (ms,95%): 3.07
+386) temp: 58.375
+387) temp: 58
+388) temp: 57.5
+[ 438s ] thds: 12 eps: 10191.31 lat (ms,95%): 1.79
+389) temp: 57.125
+390) temp: 57
+[ 441s ] thds: 12 eps: 10449.01 lat (ms,95%): 1.34
+391) temp: 57
+392) temp: 56.875
+393) temp: 56.875
+[ 444s ] thds: 12 eps: 10491.96 lat (ms,95%): 1.32
+394) temp: 56.75
+395) temp: 56.75
+396) temp: 56.625
+[ 447s ] thds: 12 eps: 10526.09 lat (ms,95%): 1.25
+397) temp: 56.875
+398) temp: 56.875
+[ 450s ] thds: 12 eps: 10467.01 lat (ms,95%): 1.30
+399) temp: 56.875
+400) temp: 57.625
+401) temp: 57.5
+[ 453s ] thds: 12 eps: 10144.05 lat (ms,95%): 1.89
+402) temp: 57.5
+403) temp: 57.625
+404) temp: 58
+[ 456s ] thds: 12 eps: 10164.40 lat (ms,95%): 1.79
+405) temp: 57.75
+406) temp: 57.25
+[ 459s ] thds: 12 eps: 10408.47 lat (ms,95%): 1.37
+407) temp: 57.125
+408) temp: 57.125
+409) temp: 57.125
+[ 462s ] thds: 12 eps: 10436.12 lat (ms,95%): 1.25
+410) temp: 57.25
+411) temp: 57.25
+412) temp: 57.125
+[ 465s ] thds: 12 eps: 10503.96 lat (ms,95%): 1.23
+413) temp: 57.25
+414) temp: 57.25
+[ 468s ] thds: 12 eps: 10478.06 lat (ms,95%): 1.27
+415) temp: 57.25
+416) temp: 57.25
+417) temp: 57.25
+[ 471s ] thds: 12 eps: 10481.20 lat (ms,95%): 1.27
+418) temp: 57.25
+419) temp: 57.25
+420) temp: 57.25
+[ 474s ] thds: 12 eps: 10513.07 lat (ms,95%): 1.27
+421) temp: 57.25
+422) temp: 57.25
+[ 477s ] thds: 12 eps: 10480.34 lat (ms,95%): 1.34
+423) temp: 57.25
+424) temp: 57.25
+425) temp: 57.25
+[ 480s ] thds: 12 eps: 10489.42 lat (ms,95%): 1.27
+426) temp: 57.25
+427) temp: 57.25
+428) temp: 57.25
+[ 483s ] thds: 12 eps: 10556.39 lat (ms,95%): 1.21
+429) temp: 57.375
+430) temp: 57.5
+[ 486s ] thds: 12 eps: 10302.26 lat (ms,95%): 1.47
+431) temp: 57.5
+432) temp: 57.75
+433) temp: 57.75
+[ 489s ] thds: 12 eps: 10206.44 lat (ms,95%): 1.64
+434) temp: 58
+435) temp: 58.25
+[ 492s ] thds: 12 eps: 9645.95 lat (ms,95%): 2.76
+436) temp: 58.375
+437) temp: 58.375
+438) temp: 58.625
+[ 495s ] thds: 12 eps: 9711.35 lat (ms,95%): 2.97
+439) temp: 58.875
+440) temp: 58.875
+441) temp: 59
+[ 498s ] thds: 12 eps: 9555.26 lat (ms,95%): 2.97
+442) temp: 59.125
+443) temp: 59
+[ 501s ] thds: 12 eps: 10164.64 lat (ms,95%): 1.70
+444) temp: 58.5
+445) temp: 58.25
+446) temp: 58.125
+[ 504s ] thds: 12 eps: 10136.32 lat (ms,95%): 1.70
+447) temp: 58.25
+448) temp: 58.625
+449) temp: 58.125
+[ 507s ] thds: 12 eps: 9860.41 lat (ms,95%): 2.11
+450) temp: 58.125
+451) temp: 57.75
+[ 510s ] thds: 12 eps: 10438.23 lat (ms,95%): 1.27
+452) temp: 57.75
+453) temp: 58
+454) temp: 58
+[ 513s ] thds: 12 eps: 10415.43 lat (ms,95%): 1.27
+455) temp: 57.75
+456) temp: 57.75
+457) temp: 57.75
+[ 516s ] thds: 12 eps: 10434.25 lat (ms,95%): 1.34
+458) temp: 57.875
+459) temp: 57.875
+[ 519s ] thds: 12 eps: 10429.97 lat (ms,95%): 1.34
+460) temp: 58
+461) temp: 58
+462) temp: 58.375
+[ 522s ] thds: 12 eps: 10367.29 lat (ms,95%): 1.32
+463) temp: 58.25
+464) temp: 58
+465) temp: 58.25
+[ 525s ] thds: 12 eps: 10391.18 lat (ms,95%): 1.27
+466) temp: 58.375
+467) temp: 58.875
+[ 528s ] thds: 12 eps: 9981.93 lat (ms,95%): 2.07
+468) temp: 59.25
+469) temp: 59
+470) temp: 59.25
+[ 531s ] thds: 12 eps: 10258.77 lat (ms,95%): 1.61
+471) temp: 58.625
+472) temp: 58.5
+[ 534s ] thds: 12 eps: 10443.15 lat (ms,95%): 1.39
+473) temp: 58.375
+474) temp: 58.375
+475) temp: 58.25
+[ 537s ] thds: 12 eps: 10382.24 lat (ms,95%): 1.42
+476) temp: 58.375
+477) temp: 58.375
+478) temp: 58.25
+[ 540s ] thds: 12 eps: 10478.54 lat (ms,95%): 1.37
+479) temp: 58.375
+480) temp: 58.25
+[ 543s ] thds: 12 eps: 10499.46 lat (ms,95%): 1.30
+481) temp: 58.25
+482) temp: 58.25
+483) temp: 59.25
+[ 546s ] thds: 12 eps: 10210.88 lat (ms,95%): 1.50
+484) temp: 58.75
+485) temp: 58.625
+486) temp: 58.5
+[ 549s ] thds: 12 eps: 10385.27 lat (ms,95%): 1.37
+487) temp: 58.625
+488) temp: 58.5
+[ 552s ] thds: 12 eps: 10470.38 lat (ms,95%): 1.34
+489) temp: 58.5
+490) temp: 58.75
+491) temp: 58.5
+[ 555s ] thds: 12 eps: 10380.94 lat (ms,95%): 1.39
+492) temp: 58.5
+493) temp: 58.5
+494) temp: 58.5
+[ 558s ] thds: 12 eps: 10387.18 lat (ms,95%): 1.39
+495) temp: 58.5
+496) temp: 58.375
+[ 561s ] thds: 12 eps: 10517.23 lat (ms,95%): 1.27
+497) temp: 58.375
+498) temp: 58.25
+499) temp: 58.375
+[ 564s ] thds: 12 eps: 10471.73 lat (ms,95%): 1.34
+500) temp: 58.5
+501) temp: 58.375
+502) temp: 58.25
+[ 567s ] thds: 12 eps: 10505.00 lat (ms,95%): 1.27
+503) temp: 58.25
+504) temp: 58.25
+[ 570s ] thds: 12 eps: 10513.59 lat (ms,95%): 1.27
+505) temp: 58.25
+506) temp: 58.25
+507) temp: 58.25
+[ 573s ] thds: 12 eps: 10492.41 lat (ms,95%): 1.30
+508) temp: 58.25
+509) temp: 58.25
+510) temp: 58.25
+[ 576s ] thds: 12 eps: 10502.81 lat (ms,95%): 1.27
+511) temp: 58.25
+512) temp: 58.25
+[ 579s ] thds: 12 eps: 10500.40 lat (ms,95%): 1.32
+513) temp: 58.25
+514) temp: 58.5
+515) temp: 58.25
+[ 582s ] thds: 12 eps: 10372.40 lat (ms,95%): 1.30
+516) temp: 58.25
+517) temp: 58.25
+518) temp: 58.25
+[ 585s ] thds: 12 eps: 10512.63 lat (ms,95%): 1.25
+519) temp: 58.25
+520) temp: 58.5
+[ 588s ] thds: 12 eps: 10503.22 lat (ms,95%): 1.25
+521) temp: 58.25
+522) temp: 58.25
+523) temp: 58.25
+[ 591s ] thds: 12 eps: 10531.17 lat (ms,95%): 1.23
+524) temp: 58.375
+525) temp: 58.25
+526) temp: 58.25
+[ 594s ] thds: 12 eps: 10525.07 lat (ms,95%): 1.30
+527) temp: 58.25
+528) temp: 58.25
+[ 597s ] thds: 12 eps: 10461.24 lat (ms,95%): 1.34
+529) temp: 58.25
+530) temp: 58.25
+531) temp: 58.25
+[ 600s ] thds: 12 eps: 10487.13 lat (ms,95%): 1.37
+532) temp: 58.5
+533) temp: 58.5
+[ 603s ] thds: 12 eps: 10478.86 lat (ms,95%): 1.34
+534) temp: 58.25
+535) temp: 58.25
+536) temp: 59
+[ 606s ] thds: 12 eps: 10400.29 lat (ms,95%): 1.37
+537) temp: 58.5
+538) temp: 58.5
+539) temp: 58.5
+[ 609s ] thds: 12 eps: 10435.51 lat (ms,95%): 1.39
+540) temp: 58.5
+541) temp: 58.5
+542) temp: 58.25
+[ 612s ] thds: 12 eps: 10429.57 lat (ms,95%): 1.30
+543) temp: 58.25
+544) temp: 58.25
+[ 615s ] thds: 12 eps: 10470.53 lat (ms,95%): 1.30
+545) temp: 58.5
+546) temp: 58.5
+547) temp: 58.5
+[ 618s ] thds: 12 eps: 10423.62 lat (ms,95%): 1.34
+548) temp: 58.5
+549) temp: 58.5
+[ 621s ] thds: 12 eps: 10443.54 lat (ms,95%): 1.34
+550) temp: 58.5
+551) temp: 58.375
+552) temp: 58.75
+[ 624s ] thds: 12 eps: 10460.45 lat (ms,95%): 1.37
+553) temp: 58.5
+554) temp: 58.75
+555) temp: 58.5
+[ 627s ] thds: 12 eps: 10427.63 lat (ms,95%): 1.34
+556) temp: 58.5
+557) temp: 58.5
+[ 630s ] thds: 12 eps: 10504.10 lat (ms,95%): 1.34
+558) temp: 58.5
+559) temp: 58.5
+560) temp: 58.5
+[ 633s ] thds: 12 eps: 10517.87 lat (ms,95%): 1.30
+561) temp: 58.5
+562) temp: 58.5
+563) temp: 58.625
+[ 636s ] thds: 12 eps: 10497.28 lat (ms,95%): 1.30
+564) temp: 58.625
+565) temp: 58.5
+[ 639s ] thds: 12 eps: 10209.51 lat (ms,95%): 1.58
+566) temp: 59.125
+567) temp: 58.75
+568) temp: 58.75
+[ 642s ] thds: 12 eps: 10441.04 lat (ms,95%): 1.34
+569) temp: 58.625
+570) temp: 58.75
+571) temp: 58.75
+[ 645s ] thds: 12 eps: 10425.71 lat (ms,95%): 1.34
+572) temp: 59
+573) temp: 59.25
+[ 648s ] thds: 12 eps: 10140.49 lat (ms,95%): 1.61
+574) temp: 58.875
+575) temp: 58.875
+576) temp: 58.75
+[ 651s ] thds: 12 eps: 10405.78 lat (ms,95%): 1.42
+577) temp: 58.75
+578) temp: 58.75
